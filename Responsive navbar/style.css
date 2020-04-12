@@ -1,0 +1,85 @@
+html{
+    font-family: sans-serif;
+}
+body{
+    margin: 0px;
+}
+
+ul{
+    margin: 0px;
+}
+
+#body-header{
+    height: 65vh ;
+    opacity: 0.9;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(images/Header-image.png);
+    background-size: 100% 65vh;
+    background-attachment:fixed;
+    
+    position: relative;
+}
+
+
+.horizontal-list{
+    
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 1em 0.5em 0px 0.5em;
+}
+
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 120%;/*extra*/
+    
+}
+
+.nav-menu li a{
+    transition: color 0.5s,border-bottom 4s;
+}
+.nav-menu li a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid white;
+}
+
+.text-center{        
+    text-align: center;
+    
+}
+
+
+.ham-nav{
+    display: none;
+}
+
+
+@media only screen and (max-width: 800px){
+    .ham-nav{
+        display: block;
+        background-color: green;
+        
+    }
+        
+    .ham-icon {
+        padding: 10px 19px;
+        display: inline-block;
+        font-size: 50px;
+        background-color: #7b7b7b;
+    }
+    
+    .ham-icon:hover {
+        background-color: red;
+    }
+    
+    
+    .horizontal-list li{
+    display: none;
+    
+    }
+}
