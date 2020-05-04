@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+	
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href ="resources/fontawesome-free-5.9.0-web/css/all.css" rel="stylesheet">
+		<title>Music Player</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	</head>
+	
+	<body>
+        <nav>
+            <div class="navbar">
+                
+                    <img id="navbar-image" src="Images/navbar-image.jpg" alt="Ninja-Studio">
+                    <div class="inline-block white-text" id="company-name">
+                        Ninja <br><b>Studio</b>
+                    </div>
+                    <div class="inline-block white-text" id="fav">Favourites</div>
+                    
+                    <div class="white-text" id="ham-menu">
+                        <i class="fas fa-bars "></i>
+                    </div>
+                    <div id="profile-pic" class="inline-block right-align">
+                        
+                    </div>
+                    <div class="inline-block white-text right-align" id="search-btn">
+                        <i  class="fas fa-search "></i>
+                    </div> 
+                    <div class="inline-block right-align" id="notification">
+                        <i class="fas fa-bell white-text "></i>
+                    </div>
+                
+                    <div id="search-bar" class ="inline-block right-align">
+                        <form  action="">
+                            <i id="search-icon" class="fas fa-search white-text "></i>
+                            <input  name="search" type="text" placeholder="search">
+                            <i id="mic" class="fas fa-microphone white-text"></i>
+                        </form>
+                    </div>            
+            </div>
+                <div class="hidden-nav-cntnr">
+                    <div class="hidden-nav">
+                        <div class="hidden-nav-items">
+                            <div class="hidden-nav-text">Logout</div>
+                        </div>
+                        <div class="hidden-nav-items">
+                            <div class="hidden-nav-text">My Profile</div>
+                        </div>
+                        <div class="hidden-nav-items">
+                            <div class="hidden-nav-text">Notifications</div>
+                        </div>
+                        <div class="hidden-nav-items">
+                            <div class="hidden-nav-text">Favourites</div>
+                        </div>
+                         
+                    </div>
+                </div>
+                
+                
+            
+            
+            
+        </nav>
+        <main>
+            <div id="main-carousel">
+                <div class="carousel">
+                <ul>
+                    <li>
+                        <div class="carousel-container">
+                            <img src="Images/Carousel-playlist/Carousel-Item-1.jpg" alt="Carousel-Item-1">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="carousel-container">
+                            <img src="Images/Carousel-playlist/Carousel-item-2.jpg" alt="Carousel-Item-1">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="carousel-container">
+                            <img src="Images/Carousel-playlist/Carousel-item-3.jpg" alt="Carousel-Item-1">
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+            <div id="latest-release">
+                <span class="white-text f-2em text-bold">Latest Release</span>
+                <div class="flex-container">
+                    <div class="latest-song">
+                        <img src="Images/Latest-release/Song-1.jpg">
+                        <div id="latest-song-details">
+                            <div id="latest-song-name" class="white-text text-bold inline-block">
+                                City slums
+                            </div><br>
+                            <span id="latest-release-date">AUG 11,2017</span>
+                            <div id="latest-release-btn-cntnr" class="right-align inline-block">
+                                <div class="dropdown ">
+                                    <button id="latest-release-btn">
+                                       <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <a href="#">Playlists</a>
+                                        <a href="#">Favourite Songs</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <span id="latest-duration" class="right-align">4:44</span>
+                        </div>
+                    </div>
+                    <div class="latest-song">
+                        <img src="Images/Latest-release/Song-2.jpg">
+                        <div id="latest-song-details">
+                            <div id="latest-song-name" class="white-text text-bold inline-block">
+                               Zamana Jali
+                            </div><br>
+                            <span id="latest-release-date">AUG 11,2017</span>
+                            <div id="latest-release-btn-cntnr" class="right-align inline-block">
+                                <div class="dropdown ">
+                                    <button id="latest-release-btn">
+                                       <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <a href="#">Playlists</a>
+                                        <a href="#">Favourite Songs</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <span id="latest-duration" class="right-align">4:44</span>
+                        </div>
+                    </div>
+                    <div class="latest-song">
+                        <img src="Images/Latest-release/Song-3.jpg">
+                        <div id="latest-song-details">
+                            <div id="latest-song-name" class="white-text text-bold inline-block">
+                                Kaam Pachis
+                            </div><br>
+                            <span id="latest-release-date">AUG 11,2017</span>
+                            <div id="latest-release-btn-cntnr" class="right-align inline-block">
+                                <div class="dropdown ">
+                                    <button id="latest-release-btn">
+                                       <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <a href="#">Playlists</a>
+                                        <a href="#">Favourite Songs</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <span id="latest-duration" class="right-align">4:44</span>
+                        </div>
+                    </div>
+                    <div class="latest-song">
+                        <img src="Images/Latest-release/Song-4jpg.jpg">
+                        <div id="latest-song-details">
+                            <div id="latest-song-name" class="white-text text-bold inline-block">
+                                Teesri Manzil
+                            </div><br>
+                            <span id="latest-release-date">AUG 11,2017</span>
+                            <div id="latest-release-btn-cntnr" class="right-align inline-block">
+                                <div class="dropdown ">
+                                    <button id="latest-release-btn">
+                                       <i class="fas fa-ellipsis-h"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <a href="#">Playlists</a>
+                                        <a href="#">Favourite Songs</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <span id="latest-duration" class="right-align">4:44</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="popular-artist">
+                <span class="white-text f-2em text-bold">Popular Artists</span>
+                <div id="artist-cntnr" class="flex-container">
+                    <div class="artist">
+                        <img src="Images/Popular-Artist/Artist-1.jpg">
+                        <div class="play-btn-artist">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <img src="Images/Popular-Artist/Artist-2.jpg">
+                        <div class="play-btn-artist">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <img src="Images/Popular-Artist/Artist-3.jpg">
+                        <div class="play-btn-artist">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <img src="Images/Popular-Artist/Artist-4.jpg">
+                        <div class="play-btn-artist">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <img src="Images/Popular-Artist/Artist-5jpg.jpg">
+                        <div class="play-btn-artist">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="artist">
+                        <img src="Images/Popular-Artist/Artist-6.jpg">
+                        <div class="play-btn-artist">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>                    
+                    
+                </div>
+                
+            </div>
+            <div id="stations">
+                 <div id="Station-cntnr" class="flex-container">
+                    <div id="stations-header">
+                        <img src="Images/Stations/Stations.png">
+                     </div>
+                    <div class="artist">
+                        <img src="Images/Stations/Station-1.jpg">
+                    </div>
+                    <div class="artist">
+                        <img src="Images/Stations/station-2.jpg">
+                    </div>
+                    <div class="artist">
+                        <img src="Images/Stations/station-3.jpg">
+                    </div>
+                    <div class="artist">
+                        <img src="Images/Stations/station-4.jpg">
+                    </div>
+                    <div class="artist">
+                        <img src="Images/Stations/station-5.jpg">
+                     </div>
+                    
+                </div>
+            </div>
+            
+        </main>
+        <aside class="inline-block">
+            <div id="queue-header">
+                <span class="white-text f-2em text-bold">Queue</span>
+                <div class="dropdown right-align">
+                    <button  id="queue-drp-down-btn">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Playlists</a>
+                        <a href="#">Favourite Songs</a>
+                    </div>
+                </div>
+                <span id="queue-drp-down-txt">Queue</span>                
+            </div>
+            <div id="song-list-container">
+            <div id="queue-song-list">
+                <ol>                    
+                    <li>
+                        <div class="inline-block" id="queue-image-cntnr">
+                            <img src="Images/Queue/song-1.jpg" alt="song-1-image">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div> 
+                        <div class="inline-block song-descp">
+                            <div class="white-text song-title text-bold">So High</div>
+                            <span class="album-name">Sidhu Moose wala</span>
+                        </div>
+                        <a href="#" class="heart">
+                            <i class="far fa-heart right-align f-1-and-half-em heart-icon color-bg"></i>
+                            <i class="fas fa-heart right-align f-1-and-half-em heart-icon color-bred"></i>
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <div class="inline-block" id="queue-image-cntnr">
+                            <img src="Images/Queue/Song-2.jpg" alt="song-1-image">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div> 
+                        <div class="inline-block song-descp">
+                            <div class="white-text song-title text-bold">Same Beef</div>
+                            <span class="album-name">Sidhu Moose wala</span>
+                        </div>
+                        <a href="#" class="heart">
+                            <i class="far fa-heart right-align f-1-and-half-em heart-icon color-bg"></i>
+                            <i class="fas fa-heart right-align f-1-and-half-em heart-icon color-bred"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="inline-block" id="queue-image-cntnr">
+                            <img src="Images/Queue/Song-3.jpg" alt="song-1-image">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>                        
+                        <div class="inline-block song-descp">
+                            <div class="white-text song-title text-bold">East Side Flow</div>
+                            <span class="album-name">Sidhu Moose wala</span>
+                        </div>
+                        <a href="#" class="heart">
+                            <i class="far fa-heart right-align f-1-and-half-em heart-icon color-bg"></i>
+                            <i class="fas fa-heart right-align f-1-and-half-em heart-icon color-bred"></i>
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <div class="inline-block" id="queue-image-cntnr">
+                            <img src="Images/Queue/Song-4.jpg" alt="song-1-image">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div> 
+                        <div class="inline-block song-descp">
+                            <div class="white-text song-title text-bold">Just Listen</div>
+                            <span class="album-name">Sidhu Moose wala</span>
+                        </div>
+                        <a href="#" class="heart">
+                            <i class="far fa-heart right-align f-1-and-half-em heart-icon color-bg"></i>
+                            <i class="fas fa-heart right-align f-1-and-half-em heart-icon color-bred"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="inline-block" id="queue-image-cntnr">
+                            <img src="Images/Queue/Song-5.jpg" alt="song-1-image">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div> 
+                        <div class="inline-block song-descp">
+                            <div class="white-text song-title text-bold">Kali Denali</div>
+                            <span class="album-name">Bohemia</span>                            
+                        </div>
+                        <a href="#" class="heart">
+                            <i class="far fa-heart right-align f-1-and-half-em heart-icon color-bg"></i>
+                            <i class="fas fa-heart right-align f-1-and-half-em heart-icon color-bred"></i>
+                        </a>
+                    </li>
+                    <li>
+                       <div class="inline-block" id="queue-image-cntnr">
+                            <img src="Images/Queue/song-1.jpg" alt="song-1-image">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div> 
+                        <div class="inline-block song-descp">
+                            <div class="white-text song-title text-bold">So High</div>
+                            <span class="album-name">Sidhu Moose wala</span>                            
+                        </div>
+                        <a href="#" class="heart">
+                            <i class="far fa-heart right-align f-1-and-half-em heart-icon color-bg"></i>
+                            <i class="fas fa-heart right-align f-1-and-half-em heart-icon color-bred"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="inline-block" id="queue-image-cntnr">
+                            <img src="Images/Queue/song-1.jpg" alt="song-1-image">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div> 
+                        <div class="inline-block song-descp">
+                            <div class="white-text song-title text-bold">So High</div>
+                            <span class="album-name">Sidhu Moose wala</span>                            
+                        </div>
+                        <a href="#" class="heart">
+                            <i class="far fa-heart right-align f-1-and-half-em heart-icon color-bg"></i>
+                            <i class="fas fa-heart right-align f-1-and-half-em heart-icon color-bred"></i>
+                        </a>
+                    </li>
+                    <li>
+                       <div class="inline-block" id="queue-image-cntnr">
+                            <img src="Images/Queue/song-1.jpg" alt="song-1-image">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div> 
+                        <div class="inline-block song-descp">
+                            <div class="white-text song-title text-bold">So High</div>
+                            <span class="album-name">Sidhu Moose wala</span>                            
+                        </div>
+                        <a href="#" class="heart">
+                            <i class="far fa-heart right-align f-1-and-half-em heart-icon color-bg"></i>
+                            <i class="fas fa-heart right-align f-1-and-half-em heart-icon color-bred"></i>
+                        </a>
+                    </li>
+                </ol>
+            </div>
+            </div>
+        </aside>
+       <footer>
+            <div id="music-player">
+                <div id="music-player-content">
+                    <div class="inline-block">
+                        <img src="Images/Music-player/Song-Image.jpg">
+                    </div>
+                    
+                    <div class="inline-block white-text" id="player-song-details">
+                        Mera Bhola ha Bhandari<br>
+                        <span class="inline-block color-grey">Hansraj Raghuwanshi</span>
+                        
+                    </div>
+                    <a href="#" class="heart inline-block vertical-top">
+                            <i class="far fa-heart f-1-and-half-em heart-icon color-grey"></i>
+                            <i class="fas fa-heart f-1-and-half-em heart-icon color-bred"></i>
+                    </a>
+                    <a href="#" class="ban inline-block vertical-top">
+                            <i class="fas fa-ban f-1-and-half-em ban-icon color-grey" id="ban-grey"></i>
+                            <i class="fas fa-ban f-1-and-half-em ban-icon color-bred" id="ban-red"></i>
+                    </a>
+                    <div id="player-middle-toggles" class="inline-block vertical-top">
+                        <div id="player-buttons">
+                            <button id="random"><i class="fas fa-random color-grey"></i></button>
+                            <button> <i class="fas fa-step-backward color-grey"></i></button>
+                            <button class="f-2em color-grey"><i class="far fa-pause-circle"></i></button>
+                            <button><i class="fas fa-step-forward color-grey"></i></button>
+                            <button id="redo"><i class="fas fa-redo color-grey"></i></button>
+                        </div>                        
+                        <div id="song-slider" class="slidecontainer">
+                            <div class="color-grey inline-block">2:22</div>
+                            <input type="range" min="1" max="100" value="50" class="slider inline-block" id="myRange">
+                            <div class="color-grey inline-block">4:44</div>
+                        </div>
+                    </div>
+                    <div id="player-right-toggles" class="inline-block vertical-top">
+                        <i class="fas fa-sliders-h color-grey"></i>
+                        <i class="fas fa-share-alt-square color-grey"></i>
+                        <i class="fas fa-volume-up color-grey"></i>
+                        <div class="slidecontainer inline-block" id="volume-slider">
+                            <input type="range" min="1" max="100" value="50" class="slider inline-block" id="myRange">
+                        </div>
+                        <i class="fas fa-expand color-grey"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+	</body>
+</html>
