@@ -62,7 +62,11 @@ function addTask(){
                 div.remove();
                 updateTaskCount();
             }
-            
+            var check = document.getElementsByTagName("input");
+            check[check.length-1].onclick = function() {
+                var div = this.parentElement;      
+                div.classList.toggle("checked");
+            }
             updateTaskCount();
             newTask.value ="";
             var addBtn = document.getElementsByClassName('add-btn')[0];        
