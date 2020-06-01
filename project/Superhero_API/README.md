@@ -1,3 +1,5 @@
+https://bhavuk-khanna.github.io/project/Superhero_API/index.html
+
 #Functionality:
 A static website to interact with the Superhero API: https://www.superheroapi.com/
 
