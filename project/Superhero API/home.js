@@ -10,8 +10,8 @@
     var listHead = document.getElementsByClassName('list-group')[0];
     var searchBox = document.getElementById('search-box');
     const toastContainer = document.getElementById('toast');
-    var favourites = JSON.parse(localStorage.getItem("favourites"));;
-
+    var favourites = [];
+    
 
 
     //asnyc function that searches for a list of superheros from the provided name
@@ -128,6 +128,11 @@
     function init(){
         document.addEventListener('click', handleClickLisetner);
         searchBox.addEventListener('keyup', handleInputKeypress);
+        if(JSON.parse(localStorage.getItem("favourites"))){
+            favourites = JSON.parse(localStorage.getItem("favourites"));
+            
+        }
+            
     }
     
     init();
