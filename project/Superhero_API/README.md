@@ -20,3 +20,5 @@ A static website to interact with the Superhero API: https://www.superheroapi.co
 ○ Click on the "Del" button corresponding superhero in your favourites list to delete it from the favourties. 
 
 
+
+
