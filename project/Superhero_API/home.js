@@ -17,7 +17,7 @@
     //asnyc function that searches for a list of superheros from the provided name
     async function searchByName(name){  
         try{
-            const superhero =  await fetch(`https://cors-anywhere.herokuapp.com/https://superheroapi.com/api/${tokenId}/search/${name}`);
+            const superhero =  await fetch(`https://superheroapi.com/api.php/${tokenId}/search/${name}`);
             const data = await superhero.json();
             if(data.response==="success")
             renderResult(data.results);

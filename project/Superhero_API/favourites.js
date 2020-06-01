@@ -10,7 +10,7 @@
     //serachById fetches data from the API corresponding to the id and passes the data to the display function
     async function serachById(id,index){
         try{
-            const superhero =  await fetch(`https://cors-anywhere.herokuapp.com/https://superheroapi.com/api/${tokenId}/${id}`);
+            const superhero =  await fetch(`https://superheroapi.com/api.php/${tokenId}/${id}`);
             const data = await superhero.json();
 
             displayResult(data);

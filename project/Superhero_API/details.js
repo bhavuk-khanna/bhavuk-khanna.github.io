@@ -17,7 +17,7 @@
     //fetches superhero details from API using the ID
     async function serachById(id){  
         try{
-            const superhero =  await fetch(`https://cors-anywhere.herokuapp.com/https://superheroapi.com/api/${tokenId}/${id}`);
+            const superhero =  await fetch(`https://superheroapi.com/api.php/${tokenId}/${id}`);
             const data = await superhero.json();
             if(data.response==="success")
                 renderSuperhero(data);            
