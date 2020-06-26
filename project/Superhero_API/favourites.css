@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+}
+
+
+
+
+
+.list-cntnr{
+    margin-top: 50px;
+    width: 20%;
+}
+
+
+.list-node-cntnr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-node-name{
+    width: 80%;
+}
+
+
+
+h1{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+
+span{
+    position: absolute;
+    right: 0;
+}
+
+#toast {
+  position: absolute;
+    bottom: 16px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+}
+.toast-error {
+  background: #ff5a5a;
+}
+.toast-success {
+  background: #8bc34a;
+}

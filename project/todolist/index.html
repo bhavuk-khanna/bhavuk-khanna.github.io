@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Todoist</title>
+        <link rel="stylesheet"  href="style.css">
+    </head>
+
+    <body>
+        
+        <div class="todo-cntnr">
+            <h1>TODO List</h1>
+            <div class="header">
+                <div class="add-task-cntnr margin-b-5">
+                    
+                    <div class="add-task-box"></div>
+                    <div class="inline-block" id="task-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <input type="text" name="task-desc" id="task-desc" placeholder="Enter task description here">
+                    <div class="add-btn">
+                        <i class="fas fa-plus-circle"></i>
+                    </div>
+                </div>
+                <div class="flex space-bw margin-b-5">
+                    <div>Complete all Tasks</div>
+                    <div> Clear Completed</div>
+                </div>
+                <hr>
+            </div>
+            <div class="list-cntnr">
+                <ul>
+                    <li class="flex space-bw">
+                        <div>
+                            <input type="checkbox">
+                            Task 1
+                        </div>
+                        <div class="del-task">
+                            <i class="far fa-times-circle"></i>
+                        </div>
+                    </li>
+                    <li class="flex space-bw">
+                        <div>
+                            <input type="checkbox">
+                            Task 2
+                        </div>
+                        <div class="del-task">
+                            <i class="far fa-times-circle"></i>
+                        </div>
+                    </li>
+                     <li class="flex space-bw">
+                        <div>
+                            <input type="checkbox">
+                            Task 3
+                        </div>
+                        <div class="del-task">
+                            <i class="far fa-times-circle"></i>
+                            </div>
+                    </li>
+                    <li class="flex space-bw">
+                        <div>
+                            <input type="checkbox">
+                            Task 4
+                        </div>
+                        <div class="del-task">
+                            <i class="far fa-times-circle"></i>
+                            </div>
+                    </li>
+                </ul>
+                 <hr>
+                <div>
+                    <div id="task-left">4 tasks left</div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <script src="https://kit.fontawesome.com/ed46840379.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

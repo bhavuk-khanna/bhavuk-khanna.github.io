@@ -1,0 +1,549 @@
+html{
+    font-family: sans-serif;
+}
+body{
+    margin: 0px;
+}
+
+ul{
+    margin: 0px;
+}
+
+#body-header{
+    height: 65vh ;
+    opacity: 0.9;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(images/Header-image.png);
+    background-size: 100% 65vh;
+    background-attachment:fixed;
+    padding-top: 1.2rem;
+    position: relative;
+}
+
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 1em 0.5em 0px 0.5em;
+}
+
+
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: 120%;/*extra*/
+    
+}
+
+.nav-menu li a{
+    transition: color 0.5s,border-bottom 4s;
+}
+.nav-menu li a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid white;
+}
+
+.text-center{        
+    text-align: center;
+    
+}
+
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+
+.social-icons li a i{
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+
+
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.9);
+}
+
+#name-social-container{
+    margin-top: 10%;
+}
+
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section:nth-child(2n){
+    background-color: #EFEFEF;
+}
+
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+.section-heading span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+/*About Me*/
+
+#about-me{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#about-me-image{
+    height: 12rem;
+    width:  12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#about-me-image img{
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0px 0px 6px 4px rgb(211,211,211);
+    
+}
+#about-me-text {
+    font-size: 140%;
+    padding: 8em;
+    color: grey;
+}
+
+.higlight-text{
+    color: #2857a4;
+}
+
+/*----Skills-----*/
+
+
+.flex-container{
+    width: 70%;
+    /*height: 100px;*/
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+
+}
+.skill-progress-cntnr{
+    height: 2rem;
+    width: 10rem;
+    margin: 5rem 5rem;
+    background-color: darkgray;
+    border-radius: 0.8rem;
+    /*border: 2px solid black;*/
+}
+
+.skill-progress{
+    height: 100%;
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    box-shadow: 0.5rem 0 8px 0px #888;
+}
+
+.skill-name span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 1rem;
+    vertical-align: middle;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+
+/* Individual Skills */
+
+#skill-1{
+    width: 0%;
+    background-color: blue;
+}
+
+#skill-2{
+    width: 0%;
+    background-color: red;
+}
+
+
+#skill-3{
+    width: 0%;
+    background-color: purple;
+}
+
+#skill-4{
+    width: 0%;
+    background-color: lightblue;
+}
+
+#skill-5{
+    width: 0%;
+    background-color: green;
+}
+
+#skill-6{
+    width: 0%;
+    background-color: blue;
+}
+
+#skill-7{
+    width: 0%;
+    background-color: red;
+}
+
+#skill-8{
+    width: 0%;
+    background-color: green;
+}
+
+
+
+/*----Project---*/
+.project{
+    height: auto;
+    width: auto;
+    margin-bottom: 4em;
+}
+.project-type-1{
+    height: 20em;
+    width: 25em;
+    background-image: url('https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png');
+    background-size: contain;
+}
+
+.project-type-2{
+    height: 20em;
+    width: 25em;
+    background-image: url('https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png');
+    background-size: contain;
+}
+
+
+
+.img-description{
+    
+    opacity: 0;
+    font-size: 2em;
+    visibility: hidden;
+    padding-top: 2em;
+    color: white;
+}
+
+.project:hover .img-description{
+    visibility: visible;
+    opacity: 1;
+}
+
+.project:hover .project-type-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://ninjasfiles.s3.amazonaws.com/asset_0000000000000025_1550237330_codezen_2.png');
+}
+
+.project:hover .project-type-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://ninjasfiles.s3.amazonaws.com/asset_0000000000000024_1550237299_codezen.png');
+}
+
+/*----Contact-----*/
+#contact{
+    background: linear-gradient(to right,#2857a4,#403066);
+}
+#contact span{
+    color: white;
+}
+#contact-flex-cntnr{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    
+}
+#contact-flex-cntnr >div {
+    height: auto;
+    width: 40%;
+    /*border: 2px solid black; */
+    /*margin: 2rem;*/
+    /*margin-right: 5em;*/
+}
+
+.contact-input{
+    
+    background-color: inherit;
+    height: auto;
+    width: 90%;
+    margin: 2rem 1rem;
+    border-style: none;
+    border-bottom: 3px white solid;
+    font-size: 1.2rem;  
+    
+}
+#send-msg-btn{
+    text-align: center;
+}
+
+#send-message{
+    background-color:inherit;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0.5rem;
+    border: 2px white solid;
+    margin: 1em;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+}
+
+#contact-details{
+    padding-top: 1rem;
+}
+.color-white{
+    color:  white;
+}
+
+#contact-details p{
+    margin-top: 1rem;
+}
+
+#my-address-sec{
+    margin-top: 3rem;
+}
+.margin-top-4percent{
+    margin-top: 4%;
+}
+
+
+.margin-right-1percent{
+    margin-right: 1%;
+}
+
+.margin-between{
+    margin: 0 2rem;
+}
+
+
+#contact-socail-icons{
+    margin: 3rem 0 2rem 0;
+    
+}
+
+#contact-socail-icons li{
+    margin: 0 3rem;
+}
+
+
+
+/*---Work-experince----*/
+
+
+
+.timeline{
+    position: relative;
+    width: 75%;
+    /*border: 2px solid black;*/
+    
+}
+
+.timeline-box{
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+   /* border: 1px solid black;*/
+    text-align: end;
+}
+
+.timeline-box:nth-child(2n){
+    left: 53%;
+}
+
+
+
+
+.timeline-box:nth-child(2n+1)::after{
+    content: '';
+    position: absolute;
+    top: 12%;
+    right: -13.2%;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    background-color: #D3D3D3;
+    z-index: 1;
+    
+}
+.timeline-box:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top: 12%;
+    left: -9.5%;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    background-color: #D3D3D3;
+    z-index: 1;
+}
+
+
+.divider{
+    position: absolute;
+    width: 0px;
+    height: 65%;
+    border-left: 3px dotted #2857a4;
+    left: 50%;
+    top: 7%;
+}
+
+.plane{
+    position:sticky; 
+    top: 20%;
+    margin-left: -5px;
+    transform: rotate(90deg);
+    font-size: 1.7rem;
+    color: #002562;
+    z-index: 2;
+}
+
+
+.designation{
+    color: #2857a4;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0.5rem;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.logo img{
+    width: 6rem;
+    height: 2rem;
+}
+.company-name{
+    color: #00A9CE;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
+
+.institute-name{
+    color: #00458B;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
+
+}
+.duration{
+    color: #676767;
+    font-size: 1.2rem;
+    margin : 0.5rem 0.5rem 1.2rem 0.5rem;
+}
+
+
+@media only screen and (max-width: 800px){
+    
+    .timeline-box{
+    
+    width: 70%;
+        text-align: left;
+    
+}
+    .timeline-box:nth-child(2n){
+    left: 4.4%;
+}
+ 
+.timeline-box:nth-child(2n+1)::after{
+    
+    right: -22.5%;
+    
+    
+}
+.timeline-box:nth-child(2n)::after{
+    
+    left: 118%;
+    
+}
+
+.divider{
+   
+    left: 90%;
+    top: 5%;
+
+}
+   
+.duration{
+    margin-left: 0.5rem;
+    }
+#about-me-text {
+    font-size: 140%;
+    padding: 6rem 4rem 4rem 6rem;
+    color: grey;
+    }
+    
+    #contact-flex-cntnr >div {
+    height: auto;
+    width: 80%;
+    /*border: 2px solid black; */
+    /*margin: 2rem;*/
+    /*margin-right: 5em;*/
+}
+    
+#contact-socail-icons li{
+    margin: 0 1rem;
+}
+
+
+}
+
+.role-description{
+    color: #676767;
+    text-align: left;
+    padding: 4px;
+}
+
+
+
+
+/*----- Percent Controller ------------*/
+
+.percent-scroller{
+
+    height: 35px;
+    width: 150px;
+    position: fixed;
+    background-color: red;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+    
+}

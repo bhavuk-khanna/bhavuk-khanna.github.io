@@ -1,0 +1,115 @@
+
+body{
+    font-size: 15px;
+    font-family: cursive;
+    text-align: center;
+    background-color: #D4D6DD;
+    
+}
+.todo-cntnr{
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+}
+
+
+
+
+/*----------Reusables--------------*/
+.inline-block{
+    display: inline-block;
+}
+.flex{
+    display: flex;
+}
+
+.space-bw{
+    justify-content:space-between;
+}
+
+
+.margin-b-5{
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.add-task-cntnr{
+    
+    height: 80px;
+    width: 500px;
+    background-color: #DEDEDE;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+#task-desc{
+    display: inline-block;
+    height: 100%;
+    width: 80%;
+    background-color: #DEDEDE;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+
+#task-icon{
+    font-size: 25px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+.add-btn{
+    position: absolute;
+    font-size: 30px;
+    vertical-align: middle;
+    right: 10px;
+    top: 30px;
+    display: none;
+}
+hr{
+    border: 1.2px solid #DEDEDE;
+}
+
+
+
+
+.list-cntnr{
+    text-align: left;
+}
+
+
+ul{
+    padding: 0px;
+    list-style-type: none;
+}
+
+li{
+    font-size: 30px;
+    padding: 10px;
+
+}
+.del-task{
+    display: none;
+}
+
+li:hover .del-task{
+    display: block;
+}
+
+
+
+.checked{
+    text-decoration: line-through;
+}
