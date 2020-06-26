@@ -1,0 +1,31 @@
+.rod{
+    height: 20px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+
+#rod-1{
+    position: absolute;
+    top: 0%;
+    background-color: red;
+}
+
+
+#rod-2{
+    background-color: blue;
+    position: absolute;
+    bottom: 0%;
+}
+
+
+.ball{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    
+}
